@@ -6,12 +6,10 @@
     "target": "es5",
     "baseUrl": "./",
     "paths": {},
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
   }
 }

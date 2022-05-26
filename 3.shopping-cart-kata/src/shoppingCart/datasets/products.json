@@ -1,0 +1,36 @@
+[
+  {
+    "name": "apple",
+    "price": 20
+  },
+  {
+    "name": "orange",
+    "price": 40,
+    "offer": {
+      "name": "bogof"
+    }
+  },
+  {
+    "name": "banana",
+    "price": 70,
+    "offer": {
+      "name": "bogofcf",
+      "appliesTo": ["pineapple"]
+    }
+  },
+  {
+    "name": "pineapple",
+    "price": 80,
+    "offer": {
+      "name": "bogofcf",
+      "appliesTo": ["banana"]
+    }
+  },
+  {
+    "name": "cookie",
+    "price": 123,
+    "offer": {
+      "name": "bogohp"
+    }
+  }
+]
