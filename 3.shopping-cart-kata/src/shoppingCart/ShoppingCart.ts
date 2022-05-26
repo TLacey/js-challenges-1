@@ -1,4 +1,4 @@
-import { IProduct } from './IProduct';
+import { IProduct } from './interfaces/IProduct';
 import ProductData from './datasets/products.json';
 
 export class ShoppingCart {
